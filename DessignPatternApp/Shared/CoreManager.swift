@@ -20,6 +20,9 @@ struct CoreManager {
         /// builder
         patternHandlers.append(BuilderPattern())
         
+        /// visitor
+        patternHandlers.append(VisitorPattern())
+        
         patternHandlers.forEach {
             $0.handlePattern()
         }
