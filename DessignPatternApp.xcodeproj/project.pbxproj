@@ -23,6 +23,7 @@
 		3A93C3BA2B0282CF00F2765C /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A93C3B92B0282CF00F2765C /* Visitor.swift */; };
 		3A93C3BE2B02830600F2765C /* MapMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A93C3BD2B02830600F2765C /* MapMarker.swift */; };
 		3A93C3C02B02840900F2765C /* Model+Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A93C3BF2B02840900F2765C /* Model+Visitor.swift */; };
+		3A93C3C32B029CDB00F2765C /* SOLIDAvoidable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A93C3C22B029CDB00F2765C /* SOLIDAvoidable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		3A93C3B92B0282CF00F2765C /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
 		3A93C3BD2B02830600F2765C /* MapMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMarker.swift; sourceTree = "<group>"; };
 		3A93C3BF2B02840900F2765C /* Model+Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model+Visitor.swift"; sourceTree = "<group>"; };
+		3A93C3C22B029CDB00F2765C /* SOLIDAvoidable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOLIDAvoidable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +114,10 @@
 		3A93C37C2B01193900F2765C /* DessignPatternApp */ = {
 			isa = PBXGroup;
 			children = (
-				3A93C3B82B0282BE00F2765C /* Behaviours */,
-				3A93C3B52B013AAC00F2765C /* Models */,
+				3A93C3C12B029CA100F2765C /* SOLID */,
 				3A93C3AE2B01396100F2765C /* Shared */,
+				3A93C3B52B013AAC00F2765C /* Models */,
+				3A93C3B82B0282BE00F2765C /* Behaviours */,
 				3A93C3A82B01377500F2765C /* Creators */,
 				3A93C37D2B01193900F2765C /* DessignPatternAppApp.swift */,
 				3A93C37F2B01193900F2765C /* ContentView.swift */,
@@ -200,6 +203,14 @@
 				3A93C3BF2B02840900F2765C /* Model+Visitor.swift */,
 			);
 			path = Visitor;
+			sourceTree = "<group>";
+		};
+		3A93C3C12B029CA100F2765C /* SOLID */ = {
+			isa = PBXGroup;
+			children = (
+				3A93C3C22B029CDB00F2765C /* SOLIDAvoidable.swift */,
+			);
+			path = SOLID;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +348,7 @@
 				3A93C3802B01193900F2765C /* ContentView.swift in Sources */,
 				3A93C3B42B013A8900F2765C /* OnboardingUserBuilder.swift in Sources */,
 				3A93C3B22B013A3700F2765C /* OnboardingUserDirector.swift in Sources */,
+				3A93C3C32B029CDB00F2765C /* SOLIDAvoidable.swift in Sources */,
 				3A93C3AD2B01384B00F2765C /* OnboardingUser.swift in Sources */,
 				3A93C37E2B01193900F2765C /* DessignPatternAppApp.swift in Sources */,
 				3A93C3B02B01398900F2765C /* DesignPatternHandler.swift in Sources */,
